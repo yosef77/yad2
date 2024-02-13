@@ -1,0 +1,60 @@
+
+.add-product-form h2 {
+    text-align: center;
+  }
+  
+.add-product-form {
+    max-width: 470px;
+    margin: 20px auto; 
+    padding: 54px;
+    border: 3px solid #0b0b0b;
+    border-radius: 9px;
+    background-color: rgb(238, 238, 236);
+  }
+  
+  
+  .add-product-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .add-product-form input[type="text"],
+  .add-product-form input[type="number"],
+  .add-product-form input[type="tel"],
+  .add-product-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-product-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-product-form button:hover {
+    background-color: #555;
+  }
+  
+  input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border: 2px solid #e02b2b; 
+}
+
+input.ng-valid.ng-touched,
+textarea.ng-valid.ng-touched {
+  border: 2px solid #66cc66;
+}
+
+.error {
+  color: #ff6666; 
+  font-size: 0.8rem;
+  margin-top: 5px;
+}

@@ -1,0 +1,42 @@
+<div>
+  <form class="add-product-form" (ngSubmit)="submitProduct()" #newForm="ngForm">
+    <h2>Add a New Product</h2>
+    <div>
+      <label for="productName">Product Name:</label>
+      <textarea  id="productName" [(ngModel)]="newProduct.name" name="name" required pattern="[a-zA-Z ]+" #name="ngModel"></textarea>
+      <div class="error" *ngIf="name.errors?.['required'] && name.touched">This field is required</div>
+      <div class="error" *ngIf="name.errors?.['pattern'] && name.touched">Only letters are allowed</div>
+    </div>
+    <div>
+      <label for="productDescription">Description:</label>
+      <textarea id="productDescription" [(ngModel)]="newProduct.description" name="description" required #description="ngModel"></textarea>
+      <div class="error" *ngIf="description.invalid && description.touched">This field is required</div>
+    </div>
+    <div>
+      <label for="productImage">Image URL:</label>
+      <textarea id="productImage" [(ngModel)]="newProduct.imageUrl" name="image" required #image="ngModel"></textarea>
+      <div class="error" *ngIf="image.invalid && image.touched">This field is required</div>
+    </div>
+    <div>
+      <label for="productPrice">Price:</label>
+      <textarea id="productPrice" [(ngModel)]="newProduct.price" name="price" required pattern="[0-9]+" #price="ngModel"></textarea>
+      <div class="error" *ngIf="price.errors?.['required'] && price.touched">This field is required</div>
+      <div class="error" *ngIf="price.errors?.['pattern'] && price.touched">Only numbers are allowed</div>
+    </div>
+    <div>
+      <label for="productCity">City:</label>
+      <textarea id="productCity" [(ngModel)]="newProduct.city" name="city" required pattern="[a-zA-Z ]+" #city="ngModel"></textarea>
+      <div class="error" *ngIf="city.errors?.['required'] && city.touched">This field is required</div>
+      <div class="error" *ngIf="city.errors?.['pattern'] && city.touched">Only letters are allowed</div>
+    </div>
+    <div>
+      <label for="sellerPhone">Seller's Phone:</label>
+      <textarea id="sellerPhone" [(ngModel)]="newProduct.sellerPhone" name="sellerPhone" required pattern="[0-9]+" #sellerPhone="ngModel"></textarea>
+      <div class="error" *ngIf="sellerPhone.errors?.['required'] && sellerPhone.touched">This field is required</div>
+      <div class="error" *ngIf="sellerPhone.errors?.['pattern'] && sellerPhone.touched">Only numbers are allowed</div>
+    </div>
+    
+   
+    <button type="submit" [disabled]="newForm.invalid">Add Product</button>
+  </form>
+</div>

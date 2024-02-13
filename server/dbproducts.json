@@ -1,0 +1,74 @@
+{
+  "Product": [
+    {
+      "id": 1,
+      "name": "כורסאת נוחות",
+      "description": "כורסא נוחות מעוצבת מחומרים עמידים",
+      "imageUrl": "https://www.american-comfort.co.il/wp-content/uploads/2023/07/More-L022-Light-grey-1.jpg",
+      "price": 450,
+      "city": "תל אביב",
+      "sellerPhone": "050-1234567",
+      "publishDate": "2021-03-01"
+    },
+    {
+      "id": 2,
+      "name": "שולחן עבודה",
+      "description": "שולחן עץ מלא עם מגירות נשלפות",
+      "imageUrl": "https://www.vastu.co.il/wp-content/uploads/2017/09/%D7%A9%D7%95%D7%9C%D7%97%D7%9F-%D7%A2%D7%91%D7%95%D7%93%D7%94-%D7%9E%D7%A2%D7%A5-9.jpg",
+      "price": 750,
+      "city": "ירושלים",
+      "sellerPhone": "052-7654321",
+      "publishDate": "2016-09-01"
+    },
+    {
+      "id": 3,
+      "name": "אופני הרים",
+      "description": "אופני הרים לכל סוגי השטח",
+      "imageUrl": "https://www.pelegalgalim.co.il/images/itempics/264_160520221057331.jpg",
+      "price": 1200,
+      "city": "חיפה",
+      "sellerPhone": "053-9876543",
+      "publishDate": "2016-08-01"
+    },
+    {
+      "id": 4,
+      "name": "כיסא משרדי",
+      "description": "כיסא משרדי ארגונומי עם תמיכה לגב",
+      "imageUrl": "https://www.fizzio.co.il/files/catalog/item/small/cover_picture8.jpg",
+      "price": 300,
+      "city": "באר שבע",
+      "sellerPhone": "054-1122334",
+      "publishDate": "2018-08-01"
+    },
+    {
+      "id": 5,
+      "name": "עגלת תינוק",
+      "description": "עגלת תינוק משולבת מבית גרקו ",
+      "imageUrl": "https://cdn1.speedsize.com/c355e128-865f-4da1-9ee8-c62982a19da6/https://www.mommyshop.co.il/wp-content/uploads/2022/03/WhatsApp-Image-2023-10-30-at-13.42.10_6ac43667.jpg",
+      "price": 300,
+      "city": "באר שבע",
+      "sellerPhone": "054-1122334",
+      "publishDate": "2023-08-01"
+    },
+    {
+      "id": 6,
+      "name": "רכב משפחתי",
+      "description": "רכב משפחתי טויוטה במצב מעולה, שנת 2021",
+      "imageUrl": "https://i.ytimg.com/vi/ujn9tqCkFEg/hqdefault.jpg",
+      "price": 95000,
+      "city": "נתניה",
+      "sellerPhone": "058-1231234",
+      "publishDate": "2021-08-01"
+    },
+    {
+      "id": 7,
+      "name": "כדורגל",
+      "description": "כדורגל פריז",
+      "imageUrl": "https://toysrus.co.il/media/catalog/product/cache/55a044f927b05bedf296cf15120d7cf4/9/8/9800000300220.jpeg",
+      "price": 55,
+      "city": "תל אביב",
+      "sellerPhone": "053-5384674",
+      "publishDate": "2024-02-08"
+    }
+  ]
+}
