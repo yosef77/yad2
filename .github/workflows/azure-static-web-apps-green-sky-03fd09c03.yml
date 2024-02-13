@@ -28,11 +28,10 @@ jobs:
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "https://github.com/yosef77/yad2/tree/main" # App source code path
-          api_location: "" # Api source code path - optional
-          output_location: "" # Built app content directory - optional
-          ###### End of Repository/Build Configurations ######
-
+          app_location: "src" # מיקום הקוד המקורי של האפליקציה
+          api_location: "server" # מיקום קוד ה-API אם יש לך, או השאר ריק אם אין
+          output_location: "dist/yad2" # הנתיב לתוצרי הבנייה
+          
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
